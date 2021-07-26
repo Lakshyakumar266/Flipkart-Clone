@@ -1,0 +1,127 @@
+/* .footer {
+
+} */
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.col {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.spec-links {
+  padding-bottom: 50px;
+}
+.footer-dark {
+  background: #172337;
+  color: #fff;
+}
+.main-footer {
+  padding: 50px 0;
+  width: 90vw;
+  margin: auto;
+}
+.footer .title {
+  color: #878787;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.footer .add-atributes a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 5px 0;
+}
+.footer .add-atributes {
+  display: flex;
+  flex-direction: column;
+}
+.footer .add-atributes-secondery {
+  display: flex;
+  flex-direction: column;
+}
+.footer .add-atributes-secondery a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 11px;
+  margin: 2px 0;
+}
+.text-only {
+  padding-left: 10px;
+}
+.copyright-foot {
+  margin-top: 20px;
+}
+.text-light {
+  color: #fff;
+  margin-left: 5px;
+}
+.copyright-foot div {
+  margin: 0 25px;
+  font-size: 13px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.main-title b {
+  color: #848484;
+}
+.main-title {
+  font-weight: 500;
+  font-size: 15px;
+}
+.main-title span {
+  color: #333333;
+}
+.footer {
+  background: #fff;
+  box-shadow: 0 0px 2px 0 #777777;
+}
+.footer-brand-directory {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 95vw;
+  margin: 0 auto;
+}
+.footer-brand-directory .main-title {
+  opacity: 0.8;
+}
+.fters {
+  margin-top: 10px !important;
+}
+.fters a {
+  color: #616060;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+
+.footer-advantages {
+  width: 95vw;
+  margin: 0 auto;
+}
+.footer-advantages .advantage {
+  margin: 40px 0;
+}
+.footer-advantages .advantage .advantage-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 10px 0;
+  color: #878787;
+}
+.footer-advantages .advantage .advantage-desc {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #878787;
+}
